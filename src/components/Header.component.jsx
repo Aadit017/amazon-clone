@@ -79,8 +79,7 @@ const HeaderSearch=styled.div`
 display:flex;
 flex-grow:1;
 height:40px;
-border-radius:4px;
-overflow:hidden;
+border-radius:20%;
 margin-left:4px;
 background-color:white;
 :focus-within{
@@ -111,10 +110,13 @@ const HeaderOption=styled.div`
     padding: 10px 9px;
 `
 const HeaderOptionCart=styled.div`
-    a {
+    display:flex;
+    a{
+        color:white;
         display:flex;
         align-items:center;
-        padding
+        text-decoration:none;
+        padding: 0 5px;
     }
 `
 const CartCount=styled.div`
