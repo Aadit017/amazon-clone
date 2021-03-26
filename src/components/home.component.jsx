@@ -1,10 +1,15 @@
 import React from 'react'
 import styled from "styled-components"
+import Product from "./product.component"
 const Home =()=>{
     return (
         <Container>
-            <Banner></Banner>        
-            <Content></Content>
+            <Banner>
+
+            </Banner>        
+            <Content>
+                 <Product />
+            </Content>
         </Container>
     )
 }
@@ -17,9 +22,16 @@ const Banner=styled.div`
     min-height: 600px;
     background-position:center;
     background-size:cover;  
+    mask-image:linear-gradient(to bottom ,rgba(0,0,0,1) , rgba(0,0,0,0));
+    z-index:1;
 `
+// with mask image the black part over here became transparent 
 const Content=styled.div`
-    
+    background:white;
+    padding: 0 10px;
+    margin-top: -350px;
+    z-index:100;
+    display:flex;
 `
 
 

@@ -8,7 +8,9 @@ const Header=()=>{
     return (   
         <Container>
             <HeaderLogo>
+            <Link to="/">
             <img src={"https://i.imgur.com/7I9Was5.png"} alt={"dc"} />
+            </Link>
             </HeaderLogo>
             
                 <HeaderAddressOption> 
