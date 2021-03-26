@@ -9,6 +9,7 @@ const Home =()=>{
             </Banner>        
             <Content>
                  <Product />
+                 <Product />
             </Content>
         </Container>
     )
